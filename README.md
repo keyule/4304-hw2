@@ -1,4 +1,4 @@
-# TIC4304 Homwwork2
+# TIC4304 Homework2
 
 ## Report
 
