@@ -1,10 +1,9 @@
 # TIC4304 Homework 2
 - Name: Ke Yule
 - Student Number: A0211495H E0493826
-- Github: https://github.com/keyule/3001-Task1A
 
 *View the markdown version for better formatting at:*   
-*https://github.com/keyule/3001-Task1A/blob/main/Report/report.md* 
+*https://github.com/keyule/4304-hw2/blob/main/report.md* 
 
 ### Task 1
 Code:  
